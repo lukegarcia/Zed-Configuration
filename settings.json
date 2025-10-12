@@ -1,0 +1,34 @@
+// Zed settings
+// ~/.config/zed/
+
+{
+  "theme": "Minimal Violet Light",
+  "icon_theme": "VSCode Icons (Light)",
+  "ui_font_size": 16,
+  "buffer_font_family": "MesloLGS NF",
+  "buffer_font_size": 17,
+  "soft_wrap": "editor_width",
+  "show_edit_predictions": false,
+  "show_completions_on_input": false,
+  "autosave": "on_focus_change",
+  "preview_tabs": {
+    "enabled": true,
+    "enable_preview_from_file_finder": true,
+    "enable_preview_from_code_navigation": true
+  },
+  "restore_on_startup": "last_session",
+  "restore_on_file_reopen": true,
+  "outline_panel": { "git_status": false },
+  "project_panel": { "git_status": false },
+  "scrollbar": { "git_diff": false },
+  "tabs": { "git_status": false },
+  "tab_bar": { "show": false },
+  "git": {
+    "git_gutter": "hide",
+    "inline_blame": { "enabled": false }
+  },
+  "experimental.theme_overrides": {
+    "panel.background": "#2a2d33",
+    "toolbar.background": "#2a2d33"
+  }
+}
