@@ -2,33 +2,81 @@
 // ~/.config/zed/
 
 {
-  "theme": "Minimal Violet Light",
-  "icon_theme": "VSCode Icons (Light)",
-  "ui_font_size": 16,
-  "buffer_font_family": "MesloLGS NF",
-  "buffer_font_size": 17,
-  "soft_wrap": "editor_width",
-  "show_edit_predictions": false,
-  "show_completions_on_input": false,
-  "autosave": "on_focus_change",
-  "preview_tabs": {
-    "enabled": true,
-    "enable_preview_from_file_finder": true,
-    "enable_preview_from_code_navigation": true
+  "cli_default_open_behavior": "existing_window",
+  "outline_panel": {
+    "dock": "left"
   },
-  "restore_on_startup": "last_session",
-  "restore_on_file_reopen": true,
-  "outline_panel": { "git_status": false },
-  "project_panel": { "git_status": false },
-  "scrollbar": { "git_diff": false },
-  "tabs": { "git_status": false },
-  "tab_bar": { "show": false },
-  "git": {
-    "git_gutter": "hide",
-    "inline_blame": { "enabled": false }
+  "collaboration_panel": {
+    "dock": "left"
   },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "vim_mode": false,
+  "restore_on_startup": "empty_tab",
+  "autosave": "off",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "theme": "Alabaster BG",
+  "icon_theme": "Material Icon Theme",
   "experimental.theme_overrides": {
-    "panel.background": "#2a2d33",
-    "toolbar.background": "#2a2d33"
-  }
+    "title_bar.background": "#2e3038",
+    "title_bar.inactive_background": "#292b33",
+    "status_bar.background": "#2e3038",
+    "panel.background": "#33353d",
+    "toolbar.background": "#33353d",
+    "tab_bar.background": "#2e3038",
+    "tab.inactive_background": "#363840",
+    "tab.active_background": "#3e4048",
+    "surface.background": "#33353d",
+    "background": "#2e3038",
+    "elevated_surface.background": "#3a3c44",
+    "terminal.background": "#2e3038",
+    "terminal.foreground": "#d4d4d4",
+    "editor.background": "#f5f5f5",
+    "editor.gutter.background": "#e0e1e3",
+    "text": "#d4d4d4",
+    "text.muted": "#999999",
+    "icon": "#b0b0b0",
+    "icon.muted": "#888888",
+    "border": "#404040",
+    "border.variant": "#383838",
+    "scrollbar.track.border": "#383838",
+    "element.selected": "#4a5568",
+    "ghost_element.selected": "#4a5568",
+  },
+  "ui_font_size": 19,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 18,
+  "buffer_line_height": "standard",
+  "soft_wrap": "editor_width",
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_size": 14,
+    "line_height": "standard",
+    "minimum_contrast": 0,
+  },
+  "tab_bar": {
+    "show": true,
+  },
+  "tabs": {
+    "file_icons": true,
+  },
+  "file_finder": {
+    "file_icons": true,
+  },
+  "project_panel": {
+    "dock": "left",
+    "file_icons": true,
+    "folder_icons": true,
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+  },
 }
